@@ -3,7 +3,7 @@ hello <- function() {
 }
 
 echo <- function(msg) {
-  list(msg = paste0("The message is: ", msg))
+  list(msg = paste0("The hash is: ", digest::digest(msg)))
 }
 
 n_plot <- function(n) {

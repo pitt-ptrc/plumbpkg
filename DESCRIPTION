@@ -12,7 +12,10 @@ LazyData: true
 Imports: 
     plumber,
     graphics,
-    stats
+    stats,
+    withr,
+    magrittr,
+    digest
 Suggests: 
     testthat (>= 2.1.0),
     httr,
